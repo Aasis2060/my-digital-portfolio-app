@@ -1,0 +1,20 @@
+{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "outputs": {
+    ".next": true
+  },
+  "env": {
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cG9wdWxhci1tb2xsdXNrLTc1LmNsZXJrLmFjY291bnRzLmRldiQ",
+    "CLERK_SECRET_KEY": "sk_test_0J4TmQbEl2JeBDSCeyEQjoRjtKPUSRY5gyH5TT8mqW",
+    "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "/sign-in",
+    "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "/sign-up",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "/",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "/",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_OUT_URL": "/",
+    "NEXT_PUBLIC_CLERK_DOMAIN": "popular-mollusk-75.clerk.accounts.dev",
+    "DATABASE_URL": "postgres://neondb_owner:npg_B0isStjPeK6o@ep-broad-violet-a4hkpprs-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  }
+}
