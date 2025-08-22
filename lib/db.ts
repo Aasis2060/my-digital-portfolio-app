@@ -80,3 +80,4 @@ export const projects = pgTable("projects", {
 });
 
 // Contact submissions table removed as requested
+console.log("DATABASE_URL from env:", process.env.DATABASE_URL);
